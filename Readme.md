@@ -1,4 +1,2 @@
-#chai aur backend series
-
-This is a video series on backend with javascript
--[Modellink]()
+#chai aur backend 
+THis is video series on backend with javascript

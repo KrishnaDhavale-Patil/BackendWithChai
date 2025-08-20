@@ -1,16 +1,20 @@
 {
-  "name": "lec-4",
+  "name": "chai-backend",
   "version": "1.0.0",
   "description": "a backend at chai aur code",
-  "keywords": [
-    "backend",
-    "chai"
-  ],
+  "homepage": "https://github.com/KrishnaDhavale-Patil/Backend-Project#readme",
+  "bugs": {
+    "url": "https://github.com/KrishnaDhavale-Patil/Backend-Project/issues"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/KrishnaDhavale-Patil/Backend-Project.git"
+  },
   "license": "ISC",
-  "author": "Krishna Dhavale",
+  "author": "krishna dhavale",
   "type": "commonjs",
   "main": "index.js",
   "scripts": {
-    "test": "echo \"Error: no test specified\" && exit 1"
+    "test": "javascript backend chai"
   }
 }
