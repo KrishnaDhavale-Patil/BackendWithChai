@@ -2,7 +2,7 @@
   "name": "chai-backend",
   "version": "1.0.0",
   "description": "a backend at chai aur code",
-  "type": "commonjs",
+  "type": "module",
   "homepage": "https://github.com/KrishnaDhavale-Patil/Backend-Project#readme",
   "bugs": {
     "url": "https://github.com/KrishnaDhavale-Patil/Backend-Project/issues"
@@ -15,10 +15,16 @@
   "author": "krishna dhavale",
   "main": "index.js",
   "scripts": {
-    "dev": "noedmon src/index.js"
-  },
+  "dev": "nodemon -r dotenv/config --experimental-json-modules src/index.js"
+   },
+
   "devDependencies": {
     "nodemon": "^3.1.10",
     "prettier": "^3.6.2"
+  },
+  "dependencies": {
+    "dotenv": "^17.2.1",
+    "express": "^5.1.0",
+    "mongoose": "^8.17.2"
   }
 }
